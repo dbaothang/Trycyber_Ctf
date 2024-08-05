@@ -1,0 +1,7 @@
+Steps to think about to solve the problem:
++) first from the ctf notification we will see the files of the web server
++) check and see that the bing.php file is the most notable
++) looking at the entire file we see that this file has the function of pinging the server, in addition there is a filter blocking the ways to exploit the server
++) predict this is a command injection because of the content of the bing.php file
++) we will use ${IFS} instead of spaces and I test bypass to read the flag.txt file using cacatt because predict the server will only delete once and not recursively.
++) finally we will ping the server and luckily the flag has appeared

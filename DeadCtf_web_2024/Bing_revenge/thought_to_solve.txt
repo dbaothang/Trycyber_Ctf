@@ -1,0 +1,4 @@
+reading the app.py file we see that to be able to read the flag we need the program to not print anything, guess this is blind command injection
++) first we see the system does not allow entering disallowed characters, but we can easily bypass it by using burp suite proxy or sending data directly to the server
++) try using time injection and see the effect
++) from here we just brute force the flags slowly and from there see the result

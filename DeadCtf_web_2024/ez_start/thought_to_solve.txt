@@ -1,0 +1,4 @@
++) found the upload.php file interesting
++) no sign of filter here
++) but the file will be deleted for a while after being uploaded in the unlink() function, think this could be a file upload race condition vulnerability
++) tried and luckily found the flag

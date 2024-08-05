@@ -1,0 +1,4 @@
++) first thought of a vulnerability related to jwt but I don't see any way to exploit jwt, looking at json I guess the possibility of exploitation here
++) noticed that we can use array to enter user name input
++) it will convert array to data in the form 0-> user_name you choose -> 1337 -> injected
++) note that it can't be injected with burpsuite intercept and you can only do this when selecting username at first (I tried it and it was like this :)) )
