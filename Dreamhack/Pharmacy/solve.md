@@ -80,7 +80,7 @@ php --define phar.readonly=0 exploit.php
 ```
 
 it creates a .phar file with content:
-![alt text](image.png)
+![alt text](image.png)<br>
 
 When you upload this file (i will talk how to do that below), the server will deserialization this content and greet become "passthru" and customer become "cat /flag.txt" and run "call_user_func" <br>
 Next you change the name of phar from "payload.phar" become "payload.gif" (rename in normal way, like you rename a file).
